@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anagrafica</title>
+    <link rel="stylesheet" href="https://star08-web.pages.dev/css/pico/pico.min.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="grid">
+            <div>
+                <article>
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="surname">Cognome</label>
+                    <input type="text" id="surname" name="surname" required>
+
+                    <label for="address">Indirizzo</label>
+                    <input type="text" id="address" name="address" required>
+
+                    <label for="city">Città</label>
+                    <input type="text" id="city" name="city" required>
+
+                    <label for="postal-code">Codice Postale</label>
+                    <input type="text" id="postal-code" name="postal-code" required>
+
+                    <label for="DOB">Data di Nascita</label>
+                    <input type="date" id="DOB" name="DOB" required>
+
+                    <button type="submit" onclick="creaAnagrafica()">Invia</button>
+                </article>
+            </div>
+            <div>
+                <article>
+                    <h2>Anagrafica</h2>
+                    <p id="nameO"></p>
+                    <p id="surnameO"></p>
+                    <p id="addressO"></p>
+                    <p id="cityO"></p>
+                    <p id="postal-codeO"></p>
+                    <p id="DOBO"></p>
+                </article>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./anagrafica2.js"></script>
+
+</html>
