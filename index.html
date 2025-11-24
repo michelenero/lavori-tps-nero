@@ -1,22 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anagrafica</title>
-    <link rel="stylesheet" href="https://star08-web.pages.dev/css/pico/pico.min.css">
+    <title>I miei progetti GitHub</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #222;
+        }
+
+        .projects {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .project {
+            background: white;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .project h2 {
+            margin: 0 0 10px 0;
+        }
+
+        .project a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-
 <body>
-    <main class="container">
-      <ul>
-        <li>
-          <a href="anagrafica2.html">Anagrafica 2</a>
-        </li>
-      </ul>
-    </main>
-</body>
-<script src="./anagrafica.js"></script>
 
+    <h1>I miei progetti</h1>
+
+    <div class="projects">
+
+        <div class="project">
+            <h2>Nome Progetto 1</h2>
+            <p>Breve descrizione del progetto.</p>
+            <a href="https://tuo-username.github.io/progetto1/" target="_blank">🔗 Vai al progetto</a><br>
+            <a href="https://github.com/tuo-username/progetto1" target="_blank">📁 Repository GitHub</a>
+        </div>
+
+        <div class="project">
+            <h2>Nome Progetto 2</h2>
+            <p>Breve descrizione del progetto.</p>
+            <a href="https://tuo-username.github.io/progetto2/" target="_blank">🔗 Vai al progetto</a><br>
+            <a href="https://github.com/tuo-username/progetto2" target="_blank">📁 Repository GitHub</a>
+        </div>
+
+        <!-- Aggiungi altri blocchi "project" come sopra -->
+
+    </div>
+
+</body>
 </html>
